@@ -1,0 +1,20 @@
+column,meaning,used_in
+sample_id,Unique demo sample identifier,P1/P4
+subject_id,Subject grouping key,P1
+label,PD/HC target,P1/P4
+task_type,Speech task,P1/P4
+domain_id,Acquisition/condition domain,P1/P4
+jitter,Acoustic biomarker,P2
+shimmer,Acoustic biomarker,P2
+hnr,Harmonics-to-noise ratio,P2
+f0_hz,Fundamental frequency,P2
+ppe,Pitch period entropy,P2
+dfa_rpde,Nonlinear acoustic measure,P2
+rpde,Recurrence period density entropy,P2
+mfcc_1..mfcc_13,Spectral acoustic representation,P2
+noise_db_est,Estimated noise level,P2
+clipping_rate,Clipped-sample proportion,P2
+silence_ratio,Non-speech proportion,P2
+reliability_score,Recording reliability,P2/P4
+deep_emb_01..deep_emb_16,Demo CNN embedding dimensions,P3/P4
+split,Subject-aware partition,P1
